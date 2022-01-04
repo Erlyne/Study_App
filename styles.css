@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Martel:wght@400;600;700;800&display=swap');
+
+
+
+body {
+    background-color: #ffcbcb;
+    margin: 0px;
+}
+
+.everything {
+    margin: 45px;
+    background-color: #f95959;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.main {
+    display :flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+.right {
+    order :2;
+}
+
+.right img {
+    height: 500px;
+   
+    margin: 0px;
+}
+
+.left {
+    margin-left: 200px;
+    margin-top: 120px;
+    
+    
+}
+
+.left img {
+    height: 500px;
+    width: 400px;
+    position: relative;
+    top: 125px;
+   
+}
+
+ul {
+   list-style-type: none;
+   width: 450px;
+   position: relative;
+   left: 55px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+li {
+    margin-top: 50px;
+}
+
+.description {
+    width: 400px;
+}
+
+h1 {
+    font-size: 35px;
+    color: #524c39;
+    font-family: 'Libre Caslon Text', serif;
+}
+ 
+.logo {
+
+}
+.logo img {
+    width: 150px;
+}
