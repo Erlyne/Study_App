@@ -1,7 +1,6 @@
-const background = document.querySelector('background')
-const close = document.querySelector('.btn1 button');
+const $bg = document.querySelector('.background')
 
-close.addEventListner('click', function () {
-background.style.display = 'flex';
-console.log('clicked!')
-});
+
+$('.btn1').click(function () {
+  $bg.style.display = 'flex';
+})
